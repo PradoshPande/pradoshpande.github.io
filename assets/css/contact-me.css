@@ -1,0 +1,239 @@
+.contact-me-head{
+    background: #101113;
+    padding: 60px 0 50px 0;
+}
+
+.contact-me-head .contact-h2-div{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me-head .contact-h2{
+    color: #A6A001;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+}
+
+.contact-me-head .head-desc-p{
+    color: #A6A001;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+    margin-top: 10px;
+}
+
+/* COntact left info css */
+.contact-me-section {
+    background: #FBFBFB;
+    padding-block: 50px;
+}
+
+.contact-me-section .contact-form-wrapper{
+    padding: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+    display: flex;
+    gap: 65px;
+}
+
+.contact-me-section .left-contact-info{
+    background: #000000;
+    max-width: 550px;
+    padding: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.contact-me-section .left-contact-info .small-sllips{
+    bottom: 50px;
+    position: absolute;
+    right: 80px;
+    z-index: 1;
+}
+
+.contact-me-section .left-contact-info .corner-ellips{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.contact-me-section .left-contact-info .contact-left-h2{
+    color: #FFF;
+    font-family: 'Syne';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact-me-section .left-contact-info .contact-left-p{
+    color: #C9C9C9;
+    font-family: 'syne';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.contact-me-section .left-contact-info .info-div{
+    margin: 130px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-me-section .left-contact-info .info-div .common-info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-me-section .left-contact-info .info-div .common-info .phn-no{
+    color: #FFF;
+    font-family: Syne;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact-me-section .left-contact-info .social-handles {
+    position: absolute;
+    bottom: 45px;
+}
+
+.contact-me-section .left-contact-info .social-handles .social-img{
+    max-width: 50px;
+}
+
+.contact-me-section .left-contact-info .social-handles .social-img:hover{
+    scale: 1.1;
+    transform: translateY(-5px);
+}
+
+.contact-me-section .right-contact-form .namediv-wrapper{
+    display: flex;
+    gap: 60px;
+}
+
+.contact-me-section .right-contact-form .namediv-wrapper .name-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 35px;
+}
+
+.contact-me-section .right-contact-form .namediv-wrapper .name-div label{
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contact-me-section .right-contact-form .namediv-wrapper .name-div input{
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 18px;
+    outline: none;
+    transition: border-bottom 0.3s; 
+}
+
+.contact-me-section .right-contact-form .namediv-wrapper .name-div input:active{
+    border-bottom: 1px solid;
+    color: #000;
+}
+
+.contact-me-section .right-contact-form .select-enq-type{
+    margin-top: 40px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .select-sub{
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .enq-type-wrapper{
+    display: flex;
+    gap: 45px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .enq-type-wrapper .enq-option{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .enq-type-wrapper .enq-option label{
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .message-div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .message-div label{
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contact-me-section .right-contact-form .select-enq-type .message-div input{
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 18px;
+    outline: none;
+    transition: border-bottom 0.3s;    
+}
+
+.contact-me-section .right-contact-form .select-enq-type .message-div input{
+    border-bottom: 1px solid;
+    color: #000;
+    padding: 0 0 10px 0;
+}
+
+.contact-me-section .right-contact-form .submit-btn-div{
+    display: flex;
+    justify-content: end;
+}
+
+
+.contact-me-section .right-contact-form .submit-btn-div .enq-submit-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #000;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 45px;
+    
+}

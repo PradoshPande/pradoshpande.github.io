@@ -1,0 +1,245 @@
+.resume-head{
+    background: #000;
+    padding: 40px;
+}
+
+.resume-head .resume-head-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume-head .head-profile-wrapper .img-name-wrapper .resume-head-img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.resume-head .head-profile-wrapper .img-name-wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+.resume-head .head-profile-wrapper .head-name-wrapper .designation{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Syne';
+    font-weight: normal;
+}
+
+.resume-head .head-profile-wrapper .head-name-wrapper .head-name{
+    color: #A6A001;
+    font-size: 48px;
+    font-family: 'Syne';
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.resume-head .resume-head-wrapper .head-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume-head .resume-head-wrapper .head-contact .contct-info-head{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.resume-head .resume-head-wrapper .head-contact .contct-info-head .contct-info-head-imh{
+    width: 20px;
+}
+
+.resume-head .resume-head-wrapper .head-contact .contct-info-head .contact-info-a{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Syne';
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/* Personal Info section */
+
+.personal-info-section{
+    background: #000;
+    padding-bottom: 40px;
+}
+
+.personal-info-section .work-exp-header{
+    color: #A6A001;
+    font-family: 'Syne';
+    font-size: 28px;
+}
+
+.personal-info-section .personal-info-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    margin-top: 30px;
+}
+
+.personal-info-section .personal-info-wrapper .info-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info-section .personal-info-wrapper .info-card .info-type{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 22px;
+}
+
+.personal-info-section .personal-info-wrapper .info-card .info-desc{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Exp Edu section */
+
+.education-exp {
+    background: #000;
+    padding-block: 40px;
+}
+
+.education-exp .education-exp-wrapper{
+    display: flex;
+    gap: 35px;
+}
+
+.education-exp .work-exp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 0 0 70%;
+}
+
+.education-exp .work-exp .work-exp-header{
+    color: #A6A001;
+    font-family: 'Syne';
+    font-size: 28px;
+}
+
+.education-exp .work-exp .exp-card .exp-name{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 22px;
+}
+
+.education-exp .work-exp .exp-card .exp-period{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 16px;
+}
+
+.education-exp .work-exp .exp-card .exp-desc{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.education-exp .education{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education-exp .education .education-header{
+    color: #A6A001;
+    font-family: 'Syne';
+    font-size: 28px;
+}
+
+.education-exp .education .school-card .degree-name{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 22px;
+}
+
+.education-exp .education .school-card .school-name{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Skiils Section */
+
+.skills-section{
+    background: #000;
+    padding-block: 40px;
+}
+
+.skills-section .skills-header{
+    color: #A6A001;
+    font-family: 'Syne';
+    font-size: 28px;
+}
+
+.skills-section .skills-list-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-section .skills-list-wrapper .skills-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-section .skills-list-wrapper .skills-list .skill{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.skills-section .skills-list-wrapper .skills-list .bg-bright-skill{
+    background: #434343;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+}
+/* Project Listing section*/
+
+.projects-listing-section{
+    background: #000;
+    padding-block: 40px;
+}
+
+.projects-listing-section .projects-header{
+    color: #A6A001;
+    font-family: 'Syne';
+    font-size: 28px;
+}
+
+.projects-listing-section .project-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-block: 30px;
+}
+
+.projects-listing-section .project-list-wrapper .projec-card .project-title{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 22px;
+}
+
+.projects-listing-section .project-list-wrapper .projec-card .project-tech{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 16px;
+}
+
+.projects-listing-section .project-list-wrapper .projec-card .project-desc{
+    color: #fff;
+    font-family: 'Syne';
+    font-size: 20px;
+    margin-top: 10px;
+}
